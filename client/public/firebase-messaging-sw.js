@@ -13,12 +13,12 @@ importScripts(
 // your app's Firebase config object.
 // https://firebase.google.com/docs/web/setup#config-object
 firebase.initializeApp({
-  apiKey: "AIzaSyA57kAJ7efVyBjHUc_3erXugiDQwbc0_YM",
-  authDomain: "fcma-37de6.firebaseapp.com",
-  projectId: "fcma-37de6",
-  storageBucket: "fcma-37de6.firebasestorage.app",
-  messagingSenderId: "168392288911",
-  appId: "1:168392288911:web:dce3f6256160376207defa",
+  apiKey: "AIzaSyAtmpgL2QbTTBDRsvr9l5zizj-HJllmKoI",
+  authDomain: "dora-b1147.firebaseapp.com",
+  projectId: "dora-b1147",
+  storageBucket: "dora-b1147.firebasestorage.app",
+  messagingSenderId: "423228021824",
+  appId: "1:423228021824:web:472201daca8ca436ad13a5",
 });
 
 // Retrieve an instance of Firebase Messaging so that it can handle background

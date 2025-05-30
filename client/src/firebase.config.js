@@ -7,12 +7,12 @@ import { getMessaging, getToken, onMessage } from "firebase/messaging";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyA57kAJ7efVyBjHUc_3erXugiDQwbc0_YM",
-  authDomain: "fcma-37de6.firebaseapp.com",
-  projectId: "fcma-37de6",
-  storageBucket: "fcma-37de6.firebasestorage.app",
-  messagingSenderId: "168392288911",
-  appId: "1:168392288911:web:dce3f6256160376207defa",
+  apiKey: "AIzaSyAtmpgL2QbTTBDRsvr9l5zizj-HJllmKoI",
+  authDomain: "dora-b1147.firebaseapp.com",
+  projectId: "dora-b1147",
+  storageBucket: "dora-b1147.firebasestorage.app",
+  messagingSenderId: "423228021824",
+  appId: "1:423228021824:web:472201daca8ca436ad13a5",
 };
 
 // Initialize Firebase
@@ -34,7 +34,7 @@ export const generateToken = async () => {
   if (permission === "granted") {
     const token = await getToken(messaging, {
       vapidKey:
-        "BAkWt-YROjNGAKc8E-KcPlyQOtrTqbcQEJ1hNQgCdKLy98DoIi0P65UVoasEKdsVV9OaMILmzlMwiHgCYZVf4dM",
+        "BO59GFxG1ujlET0ZfjrX1F-udO_pHmvVUJ6FlH7jri8PDy3Y_IbfhRIfADdU5EXUuAPktXa9PfsPM-z9VvGuB_o",
     });
     // console.log(token);
     return token;
